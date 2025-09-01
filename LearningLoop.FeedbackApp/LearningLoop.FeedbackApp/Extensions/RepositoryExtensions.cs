@@ -4,7 +4,7 @@
     {
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
-            services.AddSingleton<Repositories.DbConnectionFactory>();
+            //services.AddSingleton<Repositories.DbConnectionFactory>();
             return services;
         }
     }
